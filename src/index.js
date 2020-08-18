@@ -4,11 +4,15 @@ import PricingPage from './containers/PricingPage';
 import $ from 'jquery';
 import Popper from 'popper.js';
 import 'bootstrap/dist/css/bootstrap.min.css';
-
-//ReactDom.render (que voy a renderizar y donde?)
-
+/*
+ReactDOM.render( 
+    ¿Qué voy a renderizar? , 
+    ¿Dónde lo voy a renderizar?
+);
+*/
 ReactDOM.render(
-    < PricingPage />,
-  document.getElementById('app-pricing')
+    <PricingPage />
+    ,
+    document.getElementById('app-pricing')
 );
 
