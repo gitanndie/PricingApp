@@ -1,5 +1,6 @@
 import React from "react";
 
+
 const PricingDetails = (props) => {
     return (
         <div className="container">
